@@ -1,0 +1,465 @@
+body {
+    background-color: #F9F7F6;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    border: none;
+}
+
+.full-height {
+    height: 100%;
+    background-color: #000000;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.header-content {
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.encima-unidos{
+    font-size: 4em;
+    font-weight: 670;
+    margin-bottom:90px ;
+}
+
+.unidos-png {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    bottom: 150px;
+
+
+}
+.carousel-item {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item > .flex-style > p {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container {
+    z-index: 10;
+}
+
+.menu {
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar-brand {
+    max-width: 10%;
+}
+
+.navbar-brand > img {
+    width: 100%;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+#slider1 {
+    background-image: url(../img/promo_1.jpg);
+}
+
+#slider2 {
+    background-image: url(../img/promo_2.jpg);
+}
+
+#slider3 {
+    background-image: url(../img/promo_3.jpg);
+}
+
+.bg-image {
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.flex-style {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-bg {
+    background-color: #FFFFFF !important;
+    transition: background-color 0.5s ease;
+}
+
+.menu-bg > div > ul > li > a {
+    color: #000000 !important;
+}
+
+.menu-bg > div > ul > li > a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+
+.navbar {
+    transition: background-color 0.5s ease;
+    z-index: 20;
+}
+
+.social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    bottom: 20%;
+    left: 1%;
+    align-items: center;
+    z-index: 10;
+    color: #FFFFFF;
+}
+
+.social > i {
+    margin-bottom: 50%;
+    cursor: pointer;
+
+}
+
+.scroll-button {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    padding: 1%;
+    background-color: #FFFFFF;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+#ancla1 {
+    padding-left: 6.2%;
+}
+
+.bg-about {
+    background-image: url(../img/about_layout.png);
+    background-position: top center;
+    background-size: 80%;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 1%;
+}
+
+.bg-about > img {
+    width: 70%;
+}
+
+.title, .subtitle {
+    color : #4a4c70;
+}
+
+.title > .bold-title {
+    font-weight: bold;
+}
+
+.title > .normal-title {
+    font-weight: normal;
+}
+
+.subtitle {
+    font-size: 26px;
+}
+
+.container-custom {
+    width: 100%;
+}
+
+.img-container > div > img {
+    transition: transform .5s;
+    width: 100%;
+    height: 100%;
+}
+
+.img-container > div > img:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.card-flex:hover + img {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.img-container > div {
+    height: 400px;
+    width: 33.3333%;
+    overflow: hidden;
+}
+
+.bg-green {
+    background-color: #9BC35E;
+    height: 100%;
+}
+
+.bg-dark-green {
+    background-color: #2EC774;
+    height: 100%;
+}
+
+.img-container2 > div:first-child{
+    width: 33.3333%;
+}
+
+.img-container2 > div:first-child > div{
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.img-container2 > div:first-child > div > img {
+    width: 100%;
+    transition: transform .5s;
+}
+
+.img-container2 > div > div > img:hover {
+    width: 100%;
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.img-container2 > div:first-child > div > img:hover {
+    width: 100%;
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+
+.img-container2 > div:last-child > img:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.img-container2 > div:last-child {
+    height: 800px;
+    width: 66.6667%;
+    overflow: hidden;
+}
+
+.img-container2 > div:last-child > img {
+    width: 100%;
+    transition: transform .5s;
+    height: 100%;
+}
+
+.img-container2 > div:last-child > div {
+    overflow: hidden;
+    height: 800px;
+}
+
+.flex-custom {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-orange {
+    background-color: #E78F51;
+    height: 100%;
+}
+
+.lead > img {
+    width: 100%;
+}
+
+.blog-title {
+    color: #6C6E6C;
+}
+
+.carrousel-title {
+    color: #7B057E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carrousel-text {
+    text-align: center;
+}
+
+#ancla3 > h1.title-blog {
+    color: #BCBCBC;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#ancla3 > h1.subtitle-blog, #ancla2 > h1.subtitle-blog {
+    color: #447C3A;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#ancla3 > h1, #ancla2 > h1 {
+    text-align: center;
+}
+
+.footer {
+    color: #A9A9AB;
+    background-color: #20212B;
+    padding: 1%;
+}
+
+.logo-footer {
+    width: 50%;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-footer > div > i {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.flex-footer > div > i:hover {
+    color: #FFFFFF;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 20%;
+    text-align: center;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 320px) and (max-width: 480px) {
+    .img-container > div {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .flex-custom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container2 > div:first-child{
+        width: 100%;
+        height: 800px;
+    }
+
+    .img-container2 > div:first-child > div > img {
+        width: auto;
+        height: 100%;
+    }
+
+    .img-container2 > div:last-child {
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .img-container2 > div:last-child > img {
+        width: auto;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 481px) and (max-width: 767px) {
+    .img-container > div {
+        height: 390px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .flex-custom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container2 > div:first-child{
+        width: 100%;
+        height: 800px;
+    }
+
+    .img-container2 > div:first-child > div > img {
+        width: auto;
+        height: 100%;
+    }
+
+    .img-container2 > div:last-child {
+        height: 390px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .img-container2 > div:last-child > img {
+        width: auto;
+        width: 100%;
+    }
+
+    .img-container2 > div:first-child > div > img{
+        width: 100%;
+        height: auto;   
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img-container > div {
+        width: 33.3333%;
+        overflow: hidden;
+        height: 215px;
+    }
+
+    .flex-custom {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-container2 > div:first-child{
+        width: 100%;
+    }
+
+    .img-container2 > div:last-child > img {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
